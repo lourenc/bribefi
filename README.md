@@ -2,6 +2,8 @@
 
 ![BribeFI Logo](./docs/bribefi.png)
 
+### Overview
+
 BribeFI is a decentralized peer-to-peer platform that enables users to exchange signed data in return for payment. Built on the Ethereum blockchain, the smart contract utilizes the ERC20 token standard and implements the OpenZeppelin Ownable, IERC1271, and IERC20 interfaces.
 
 Users can initiate a signing request by calling the `pushSigningRequest` function with a specified block number, data to be signed, and the amount of payment they are offering. The function verifies that the user has sufficient funds and allowance for the token transfer, then creates a new signing request object with a unique identifier.
