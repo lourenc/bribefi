@@ -4,6 +4,8 @@
 
 BribeFi is Safe multisig module that allows governance participants to bribe holders to make votes on their behalf.
 
+![BribeFI Logo](./docs/bribefi.png)
+
 ### Motivation
 
 Governance participants want to bribe holders for casting votes. There are already several implementations of governance bribes, for example, Compound DAO.
@@ -13,8 +15,6 @@ BribeFi is different in a few ways:
 - governance participants can buy post-snapshot voting power
 - holders receive APY for governance tokens
 - auction-based price for the vote
-
-![BribeFI Logo](./docs/bribefi.png)
 
 ### Overview
 
