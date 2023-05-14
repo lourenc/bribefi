@@ -14,6 +14,11 @@ const config: HardhatUserConfig = {
       chainId: 137,
       accounts: [process.env.PRIVATE_KEY!],
     },
+    gnosis: {
+      url: "https://rpc.gnosischain.com/",
+      chainId: 100,
+      accounts: [process.env.PRIVATE_KEY!],
+    },
   },
   gasReporter: {
     enabled: process.env.REPORT_GAS !== undefined,
