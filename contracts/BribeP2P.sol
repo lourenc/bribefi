@@ -56,6 +56,8 @@ contract BribeP2P is Ownable {
             blockNumber: _blockNumber,
             data: _data
         });
+
+        signingRequestCount++;
     }
 
     function acceptSigningRequest(
