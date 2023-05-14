@@ -1,4 +1,4 @@
-# BribeFI Contracts
+# BribeFI
 
 ![BribeFI Logo](./docs/bribefi.png)
 
